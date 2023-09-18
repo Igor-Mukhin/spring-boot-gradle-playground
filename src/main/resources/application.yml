@@ -1,0 +1,7 @@
+base:
+  base-prop: 1
+
+sub:
+  # warning "Cannot resolve configuration property 'sub-prop'" but the property exists on the base class
+  base-prop: 2
+  sub-prop: 3
